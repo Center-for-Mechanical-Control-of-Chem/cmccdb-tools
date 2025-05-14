@@ -28,6 +28,6 @@ setuptools.setup(
         "pillow",
         "mccoygroup-mcutils>=1.4.0",
         "huggingface-hub",
-        "git+https://github.com/b3m2a1/MolScribe.git"
+        # "git+https://github.com/b3m2a1/MolScribe.git"
     ]
 )
