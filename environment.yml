@@ -1,0 +1,21 @@
+name: cmccdb-tools
+channels:
+  - rdkit
+  - pytorch
+  - openeye
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - "ase"
+  - "rdkit"
+  - "matplotlib"
+  - "ipykernel"
+  - "pip"
+  - pip:
+    - "torch"
+    - "opencv-python-headless"
+    - "pillow"
+    - "mccoygroup-mcutils>=1.4.0"
+    - "huggingface-hub"
+    - "git+https://github.com/b3m2a1/MolScribe.git"
